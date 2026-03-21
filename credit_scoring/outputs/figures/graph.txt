@@ -1,0 +1,6 @@
+# the figures folder is use to store graphs that we have plot
+# ex
+
+Confusion matrix
+Feature importance
+EDA plots

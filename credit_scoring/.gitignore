@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Data Files (IMPORTANT)
+# =========================
+
+# Raw & processed datasets (too large / avoid conflicts)
+data/raw/
+data/processed/
+
+# Optional: allow small sample data
+
+# !data/raw/sample.csv
+
+# =========================
+# Model Files
+# =========================
+
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# Logs & Temporary Files
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Output Files
+# =========================
+
+outputs/models/
+outputs/reports/*.txt
+
+# =========================
+# Cache / Misc
+# =========================
+
+.cache/
+*.sqlite3
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
