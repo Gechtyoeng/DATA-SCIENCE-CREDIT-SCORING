@@ -28,8 +28,7 @@ venv/
 # =========================
 
 # Raw & processed datasets (too large / avoid conflicts)
-data/raw/
-data/processed/
+
 
 # Optional: allow small sample data
 
