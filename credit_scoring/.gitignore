@@ -61,8 +61,8 @@ Thumbs.db
 # Output Files
 # =========================
 
-outputs/models/
-outputs/reports/*.txt
+# outputs/models/
+# outputs/reports/*.txt
 
 # =========================
 # Cache / Misc
