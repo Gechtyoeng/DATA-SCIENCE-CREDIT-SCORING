@@ -1,0 +1,18 @@
+Alternative Credit Scoring — Model Comparison Summary
+=======================================================
+
+                     Accuracy  Precision  Recall  F1-Score
+Model                                                     
+Logistic Regression    0.8226     0.7119  0.3542    0.4730
+Decision Tree          0.8782     0.7261  0.7358    0.7309
+Random Forest          0.9221     0.9346  0.7027    0.8022
+
+Best per metric:
+  Accuracy    : Random Forest (0.9221)
+  Precision   : Random Forest (0.9346)
+  Recall      : Decision Tree (0.7358)
+  F1-Score    : Random Forest (0.8022)
+
+Recommended model: Random Forest
+Reason: Best Accuracy, Precision, and F1-Score.
+        Decision Tree achieves highest Recall but at the cost of many false positives.
